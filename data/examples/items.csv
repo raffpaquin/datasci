@@ -1,0 +1,16 @@
+order_item_id,order_id,product_key
+item_01,order_01,product_01
+item_02,order_01,product_05
+item_03,order_02,product_05
+item_04,order_03,product_02
+item_05,order_04,product_05
+item_06,order_04,product_02
+item_07,order_04,product_05
+item_08,order_05,product_04
+item_09,order_06,product_02
+item_10,order_06,product_03
+item_11,order_07,product_01
+item_12,order_08,product_04
+item_13,order_09,product_02
+item_14,order_10,product_03
+item_15,order_10,product_02

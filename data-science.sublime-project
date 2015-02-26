@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+	],
+	"build_systems":
+	[
+		{
+            "name": "Python-Remote",
+            "cmd": ["cd ${project_path:${folder}} && vagrant ssh -c \"python ${file_path}/${file_name} \""],
+            "shell": true
+        },
+	]
+}

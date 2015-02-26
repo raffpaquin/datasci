@@ -1,0 +1,771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left: "
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font-tr",
+				"font-variant: "
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"o",
+				"oauth_server"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"json_",
+				"json_encode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "provision.sh",
+			"settings":
+			{
+				"buffer_size": 2011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/examples/init.py",
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from datetime import datetime\nfrom elasticsearch import Elasticsearch\n\nes = Elasticsearch()\n\nes.indices.create(index='orders')\n\nes.index(index=\"orders\", doc_type=\"order\", id=1, body={\"number\": \"100001\", \"customer\":\"customer_1\", \"timestamp\": datetime.now()})\nes.index(index=\"orders\", doc_type=\"order\", id=2, body={\"number\": \"100002\", \"customer\":\"customer_2\", \"timestamp\": datetime.now()})\nes.index(index=\"orders\", doc_type=\"order\", id=3, body={\"number\": \"100003\", \"customer\":\"customer_1\", \"timestamp\": datetime.now()})\nes.index(index=\"orders\", doc_type=\"order\", id=4, body={\"number\": \"100004\", \"customer\":\"customer_2\", \"timestamp\": datetime.now()})\nes.index(index=\"orders\", doc_type=\"order\", id=5, body={\"number\": \"100005\", \"customer\":\"customer_3\", \"timestamp\": datetime.now()})",
+			"file": "code/init.py",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Unix",
+				"name": "init.py"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"en",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"in",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001",
+		"/Users/rpaquin/Projects/machine-learning-vm",
+		"/Users/rpaquin/Projects/machine-learning-vm/code/examples"
+	],
+	"file_history":
+	[
+		"/Users/rpaquin/Desktop/regre.py",
+		"/Users/rpaquin/Desktop/test2.py",
+		"/Users/rpaquin/Desktop/test.py",
+		"/Users/rpaquin/Projects/machine-learning-vm/Vagrantfile",
+		"/Users/rpaquin/Projects/machine-learning-vm/chef/databag/es.json",
+		"/Users/rpaquin/Projects/machine-learning-vm/cookbooks/python/recipes/module.rb",
+		"/Users/rpaquin/Projects/machine-learning-vm/cookbooks/python/recipes/package.rb",
+		"/Users/rpaquin/Projects/machine-learning-vm/provision.sh",
+		"/Users/rpaquin/Projects/machine-learning-vm/cookbooks/sudo/README.md",
+		"/Users/rpaquin/Projects/ml-vm/Vagrantfile",
+		"/Users/rpaquin/Projects/machine-learning-vm/cookbooks/python/metadata.rb",
+		"/Users/rpaquin/Projects/machine-learning-vm/cookbooks/python/recipes/default.rb",
+		"/Users/rpaquin/Projects/ml-vm/chef.pem",
+		"/Users/rpaquin/Dropbox/__bio.txt",
+		"/Users/rpaquin/Desktop/data/regre.csv",
+		"/Users/rpaquin/Desktop/data/orders.csv",
+		"/Users/rpaquin/Desktop/data/tips.csv",
+		"/Users/rpaquin/Downloads/DataScience/thinkstats.code/thinkstats2.py",
+		"/Users/rpaquin/Downloads/DataScience/thinkstats.code/thinkstats.py",
+		"/Users/rpaquin/Dropbox/Notes/Préparation Lightspeed",
+		"/Users/rpaquin/Desktop/data/products.csv",
+		"/Users/rpaquin/Desktop/data/customers.csv",
+		"/Users/rpaquin/Desktop/test.html",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/layout.html",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/theme.scss",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/_nav.html",
+		"/Users/rpaquin/Downloads/DataScience/thinkstats.code/risk.py",
+		"/Users/rpaquin/Downloads/DataScience/thinkstats.code/agemodel.py",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/_features.html",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/pages_show_basic_wide.html",
+		"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001/pages_show_basic.html",
+		"/Users/rpaquin/Desktop/raff.html",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/v1/requests.php",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/020_controllers/app.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/root.html",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/home.html",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Model/Request.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Raff/Raff/Request/Validation.php",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/add-partner.html",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/Exception/InvalidCredentialsException.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Facebook/User.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Model/User.php",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/050_add-partner.scss",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/etc/error.ini",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Model/Relationship.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/v1/relationships.php",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/010_ressources/relationships.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/050_menu-left.scss",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/020_controllers/signin.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/050_home.scss",
+		"/Users/rpaquin/Projects/kinky/app2/www/index.html",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/ionic.app.scss",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/050_menu-right.scss",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/sign-in.html",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/app.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/www/css/ionic.app.css",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/v1/users.php",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/010_ressources/users.coffee",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/v1/items.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/public/index.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/helpers/response.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/helpers/authenticate.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/TokenType/Bearer.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/public/header.php",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/010_ressources/requests.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/010_ressources/items.coffee",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/v1/oauth.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Grant/FacebookGrant.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/Grant/PasswordGrant.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/ClientStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Server/Absctract.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Server/Authorization.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/Exception/InvalidClientException.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/src/routes/oauth.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Server/Ressource.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Server/Authentification.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/AccessTokenStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/AuthorizationServer.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/SessionStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/ScopeStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/RefreshTokenStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/Storage/AuthCodeStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/League/OAuth2/Server/ResourceServer.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Illuminate/Support/Fluent.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/config/db.php",
+		"/Users/rpaquin/Downloads/event-master/composer.json",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/SessionStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/ScopeStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/RefreshTokenStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/ClientStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/AuthCodeStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/OAuth/AccessTokenStorage.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/api.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/composer.json",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Oauth/SessionStorage.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Illuminate/Database/composer.json",
+		"/Users/rpaquin/Downloads/oauth2-server-master/composer.json",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/config.coffee",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/other_grants.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/Storage/AccessTokenStorage.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/authcode_grant.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/Model/Users.php",
+		"/Users/rpaquin/Downloads/oauth2-server-master/examples/relational/config/init.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Kinky/Facebook/Base.php",
+		"/Users/rpaquin/Projects/kinky/api.kinky.com/libs/Raff/Raff.php",
+		"/Users/rpaquin/Projects/kinky/app2/config.xml",
+		"/Users/rpaquin/Projects/kinky/app2/src/scss/090_animation.scss",
+		"/Users/rpaquin/Projects/kinky/app2/www/js/application.js",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/controllers/signin.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/controller.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/src/coffee/ressources/users.coffee",
+		"/Users/rpaquin/Projects/kinky/app2/ionic.project",
+		"/Users/rpaquin/Projects/kinky/app2/www/js/app.js",
+		"/Users/rpaquin/Projects/kinky/app2/gulpfile.js",
+		"/Users/rpaquin/Projects/kinky/app2/www/js/controllers.js",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/menu.html",
+		"/Users/rpaquin/Projects/kinky/app2/scss/ionic.app.scss",
+		"/Users/rpaquin/Projects/kinky/app/src/coffee/collections/items.coffee",
+		"/Users/rpaquin/Projects/kinky/app/src/coffee/views/items.coffee",
+		"/Users/rpaquin/Projects/kinky/app/src/coffee/collections/relationships.coffee",
+		"/Users/rpaquin/Desktop/OU SUIS-JE?",
+		"/Users/rpaquin/Projects/kinky/app/src/coffee/views/matches.coffee",
+		"/Users/rpaquin/Projects/kinky/app/src/coffee/kinky.coffee",
+		"/Users/rpaquin/Projects/kinky/app/src/pages/_core.html",
+		"/Users/rpaquin/Projects/kinky/app/src/scss/all.scss",
+		"/Users/rpaquin/Downloads/dist/css/bootstrap.min.css",
+		"/Users/rpaquin/Projects/kinky/app2/www/templates/playlists.html",
+		"/Users/rpaquin/Downloads/ionicons-2.0.0/css/ionicons.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/rpaquin/Downloads/DataScience/thinkstats.code",
+			"/Users/rpaquin/Projects/joly2015.ca/joly2015-54d105d02213930633000001",
+			"/Users/rpaquin/Projects/kinky/api.kinky.com",
+			"<open files>",
+			"/Users/rpaquin/Projects/clients/altitude-sports.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"any\": \"data\"",
+			"01-01",
+			"	",
+			"Interpolator",
+			"br/&gt;",
+			"{{ page.basic.content }}",
+			"features-headline",
+			"text-decoration:none",
+			"InvalidCredentialsException",
+			"The user credentials were incorrect.",
+			"\\f3da",
+			"ion-ios-",
+			"KinkyCtrl",
+			"AppCtrl",
+			"die(\"ici\");",
+			"ici",
+			"ClientEntity",
+			"clientId",
+			"InvalidClientException",
+			"Client authentication failed.",
+			"\\Kinky\\OAuth\\",
+			"	$oauth_server_auth",
+			"grant_type",
+			"grantTypes",
+			"grant_type",
+			"server",
+			"value",
+			"Symfony",
+			"Storage",
+			"stack(",
+			"stack",
+			"->stack",
+			"stack",
+			"Raff::stack",
+			"-webkit-animation",
+			"ion-ios-",
+			"ion-ios",
+			"allo",
+			"isFormData",
+			"formDataMediaTypes",
+			"getMediaType",
+			"isFormData",
+			"post",
+			"getBod",
+			"slim.input",
+			"ion requestData",
+			"%",
+			"TODO",
+			"A00002",
+			"Impossible to find class base on kiven key",
+			"Raff\\Core\\",
+			"\\Raff\\Core\\",
+			"var_",
+			"print",
+			"_getTableName",
+			"Yulcom",
+			"<p>",
+			"Pastourelle",
+			"\\n",
+			"* ",
+			" (16)",
+			" (15)",
+			" (14)",
+			" (13)",
+			" (12)",
+			" (11)",
+			" (10)",
+			" (9)",
+			" (8)",
+			" (7)",
+			" (6)",
+			" (5)",
+			" (4)",
+			" (3)",
+			" (2)",
+			" (1)",
+			" (0)",
+			"&nbsp;",
+			"</td>\n",
+			"</td>\n<td class=\"field\">",
+			"<td class=\"label\">",
+			"</tr>",
+			"<tr>\n",
+			"<tr>\n\n",
+			"\n\n",
+			"</td>",
+			"</td>\n<td class=\"field\">",
+			"<td class=\"label\">",
+			"</tr>",
+			"<tr>",
+			"qtr",
+			"eee",
+			"reiu",
+			"/home/jacko/media"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Raff\\",
+			"\\Raff\\",
+			"Raff",
+			"",
+			"<br/>",
+			"",
+			"\",",
+			"\":\"",
+			"\"",
+			"",
+			"\",",
+			"\":\"",
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "provision.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								44
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "shell-unix-generic",
+							"buffer_scroll_name": "ed3e73ce",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "code/examples/init.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "python",
+							"buffer_scroll_name": "0d17986e",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 12.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "code/init.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "init.py",
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "34fd25a3",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 172.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "data-science.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"model.php",
+				"libs/Kinky/Model.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
