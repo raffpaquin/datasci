@@ -25,21 +25,21 @@ I don’t use a lot R, but it is always useful to have it ready.
 ## How to use it
 1. Install Vagrant and VirtualBox
 2. Open your Terminal and type
-```shell
-cd ~
-```
+	```shell
+	cd ~
+	```
 3. Clone the repository on your local computer
-```shell
-git clone https://github.com/raffpaquin/datasci.git
-```
+	```shell
+	git clone https://github.com/raffpaquin/datasci.git
+	```
 4. Open the datasci folder
-```shell
-cd datasci
-```
+	```shell
+	cd datasci
+	```
 5. Open the datasci folder in your terminal and type:
-```shell
-vagrant up
-```
+	```shell
+	vagrant up
+	```
 6. And Voilà! Wait for a couple of minutes and your VM should be running at `10.0.3.10`
 
 ## TODOs
