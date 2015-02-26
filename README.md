@@ -24,23 +24,24 @@ I don’t use a lot R, but it is always useful to have it ready.
 
 ## How to use it
 1. Install Vagrant and VirtualBox
-1. Open your Terminal and type
+2. Open your Terminal and type
 ```shell
 cd ~
 ```
-1. Clone the repository on your local computer
+3. Clone the repository on your local computer
 ```shell
 git clone https://github.com/raffpaquin/datasci.git
 ```
-1. Open the datasci folder
+4. Open the datasci folder
 ```shell
 cd datasci
 ```
-1. Open the datasci folder in your terminal and type:
+5. Open the datasci folder in your terminal and type:
 ```shell
 vagrant up
 ```
-1. And Voilà! Wait for a couple of minutes and your VM should be running at `10.0.3.10`
+6. And Voilà! Wait for a couple of minutes and your VM should be running at `10.0.3.10`
 
 ## TODOs
 - Change the provisioning method from shell to chef
+- Add a tutorial
