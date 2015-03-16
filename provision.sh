@@ -62,6 +62,17 @@ sudo chmod +x kibana
 sudo service kibana restart
 
 
+# Installing Elasticsearch
+echo "===================================="
+echo "Setup finished."
+echo "===================================="
+echo ""
+echo "ElasticSearch:   http://10.0.3.10:9200"
+echo "Kibana 4:        http://10.0.3.10:5601"
+echo "iPython:         http://10.0.3.10:8888"
+echo ""
+echo ""
+
 
 
 
